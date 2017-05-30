@@ -5,5 +5,6 @@
 
 	<bean id="hello" class="tw.edu.nutc.s13023047.ioc_demo.Hello">
 		<constructor-arg value="Spring Framework" name="name"></constructor-arg>
+		<property name="greet" value="Hi"></property>
 	</bean>
 </beans>
