@@ -3,5 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="hello" class="tw.edu.nutc.s13023047.ioc_demo.Hello" />
+	<bean id="hello" class="tw.edu.nutc.s13023047.ioc_demo.Hello">
+		<constructor-arg value="Spring Framework" name="name"></constructor-arg>
+	</bean>
 </beans>
